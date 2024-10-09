@@ -1,8 +1,10 @@
 body {
-  display: flex; /* Gets rid of the default block and inline alignment */
-  border: 8px solid black; /* Adds black border to our frame */
-  justify-content: center; /* Positions our elements at the center of the x axis */
   min-height: 800px; /* Adds height to our frame */
+  border: 8px solid black; /* Adds black border to our frame */
+  /* How to center a div */
+  display: flex; /* Gets rid of the default block and inline alignment */
+  justify-content: center; /* Positions our elements at the center of the x axis */
+  align-items: center; /* Positions our element along the y axis */
 }
 
 .box {
