@@ -9,6 +9,7 @@ body {
 
   /* More options in justify content */
   /* justify-content: space-around; Creates space around the items */
+  /* justify-content: space-evenly; Creates equal spaces between the items */
   /* justify-content: space-between;  Created space between the items, making the first and last items to touch the border */
 }
 
