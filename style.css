@@ -1,7 +1,4 @@
 body {
-  min-height: 800px; /* Adds height to our frame */
-  border: 8px solid black; /* Adds black border to our frame */
-
   /* How to center a div */
   /* display: flex; Gets rid of the default block and inline alignment */
   /* justify-content: center; Positions our elements at the center of the x axis */
@@ -12,20 +9,20 @@ body {
   /* justify-content: space-evenly; Creates equal spaces between the items */
   /* justify-content: space-between;  Created space between the items, making the first and last items to touch the border */
 
+  min-height: 800px; /* Adds height to our frame */
+  border: 8px solid black; /* Adds black border to our frame */
+
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 
 .box {
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 200px;
   width: 200px;
   background-color: #0071ff;
   font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
