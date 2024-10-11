@@ -15,7 +15,9 @@ body {
   display: flex;
   gap: 20px;
 }
-
+#one {
+  flex-shrink: 0;
+}
 .box {
   flex-shrink: 1;
   display: flex;
