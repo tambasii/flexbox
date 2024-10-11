@@ -3,14 +3,18 @@ body {
   border: 8px solid black; /* Adds black border to our frame */
 
   /* How to center a div */
-  display: flex; /* Gets rid of the default block and inline alignment */
-  justify-content: center; /* Positions our elements at the center of the x axis */
-  align-items: center; /* Positions our element along the y axis */
+  /* display: flex; Gets rid of the default block and inline alignment */
+  /* justify-content: center; Positions our elements at the center of the x axis */
+  /* align-items: center; Positions our element along the y axis */
 
   /* More options in justify content */
   /* justify-content: space-around; Creates space around the items */
   /* justify-content: space-evenly; Creates equal spaces between the items */
   /* justify-content: space-between;  Created space between the items, making the first and last items to touch the border */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .box {
