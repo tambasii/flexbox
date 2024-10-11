@@ -13,8 +13,11 @@ body {
   /* justify-content: space-between;  Created space between the items, making the first and last items to touch the border */
 
   display: flex;
-  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .box {
