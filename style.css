@@ -16,12 +16,11 @@ body {
   gap: 20px;
 }
 #one {
-  flex-shrink: 0;
 }
 .box {
-  flex-shrink: 1;
+  flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 200px;
   width: 200px;
